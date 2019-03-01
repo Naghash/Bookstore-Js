@@ -1,0 +1,61 @@
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+.logosearch {
+	
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.in {
+	width: 209px;
+    height: 40px;
+    border: 2px solid;
+}
+.bookstore {
+	font-size: 52px;
+}
+#app {
+	display: flex;
+	justify-content: center;
+}
+
+#list {
+	padding: 5px;
+	border: 2px dotted;
+	width: 948px;
+}
+.bookDiv {
+	display: flex;
+	height: 400px;
+    width: 300px;
+    margin: 6px;
+    float: left;
+    padding: 2px;
+		
+}
+.bookDiv p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+.bookDiv h2 {
+	display: flex;
+	float: left;
+}
+#list img {
+	position: absolute;
+	height: 400px;
+    width: 300px;
+	float: left;
+	opacity: 1;
+	transition: .5s ease;
+}
+
+#list img:hover {
+	opacity: -1;
+}
